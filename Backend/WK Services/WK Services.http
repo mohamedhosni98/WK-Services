@@ -1,0 +1,6 @@
+@WK_Services_HostAddress = http://localhost:5236
+
+GET {{WK_Services_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
