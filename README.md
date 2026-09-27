@@ -134,7 +134,7 @@ See [`Documentation/erd.png`](./Documentation/erd.png) for the full ERD (Client,
 
 ## Test Cases
 
-Screenshots covering the main flow and edge cases are available in [`Documentation/screenshots/`](./Documentation/screenshots/):
+Screenshots covering the main flow and edge cases are available directly in [`Documentation/`](./Documentation/):
 
 1. Successful login
 2. Invalid login credentials
@@ -147,7 +147,3 @@ Screenshots covering the main flow and edge cases are available in [`Documentati
 
 ---
 
-## Notes
-
-- This project was built entirely without AI-assisted code generation, per the assessment requirements.
-- Passwords are stored as SHA-256 hashes (sufficient for this assessment's scope; a production system would use a stronger algorithm such as BCrypt).
